@@ -1,5 +1,5 @@
 //1- even odd num
-// method a 
+// method a
 // function evenOrOdd(num){
 //     if (num %2===0)return "even"
 //     return "odd"
@@ -11,9 +11,6 @@
 // }
 // console.log(evenOrOdd(5));
 // console.log(evenOrOdd(4));
-
-
-
 
 // 2-sum of positives of an array
 // method a
@@ -43,8 +40,6 @@
 // }
 // console.log(sumOfPos([1,2,3,-1,2,-3]));
 
-
-
 //3- sum without max or min val
 // method a
 // function sum (arr){
@@ -52,7 +47,7 @@
 // }
 // console.log(sum([3,4,5,3,9,5]));
 
-// method b 
+// method b
 // function sum (arr){
 //     sum=0;
 //     var sorted = arr.sort((a,b)=>b-a)
@@ -63,9 +58,7 @@
 // }
 // console.log(sum([3,4,5,3,9,5]));
 
-
-
-// 4-repeat a string n times 
+// 4-repeat a string n times
 // function repeat (str,n){
 //     for(let i = 0 ;i<n; i++){
 //         console.log(str);
@@ -73,7 +66,7 @@
 // }
 // repeat("hello",5) not accurate
 
-// method a 
+// method a
 // function repeat (s,n){
 //    var str = "";
 //    for(let i = 0 ;i<n; i++){
@@ -88,7 +81,6 @@
 // }
 // console.log(repeat("hello ",5))
 
-
 // 5- ocnvert number to reversed array of digets
 
 // function numToDigets (num){
@@ -96,7 +88,6 @@
 // return str;
 // }
 // console.log(numToDigets(123));
-
 
 // 6-count sheeps
 
@@ -106,20 +97,17 @@
 // //     if(arr[i]==="true")counter++
 // // }
 
-// orrrrr 
+// orrrrr
 // arr.map(n=>{if (n==="true")counter++})
 // return counter
 // }
 // console.log(countSheeps(["true","true",'false',"true","true",'false',"true","true"]));
 
-
-
-// 7-find the opposite of a given num 
+// 7-find the opposite of a given num
 // function opp(num){
 //     return -num;
 // }
 // console.log(opp(-2));
-
 
 // 8- return any number as negative
 // function negNum(num){
@@ -128,7 +116,7 @@
 // console.log(negNum(-2));
 
 // 10-find the needle
-// method a 
+// method a
 // function findNeedle (arr){
 //     for(let i=0;i<arr.length; i++){
 //         if (arr[i]==="neddle"){
@@ -138,14 +126,14 @@
 // }
 // console.log(findNeedle(["fvd","fewe","neddle","ewqwl"]));
 
-// method b 
+// method b
 // function findNeedle(arr){
 //     return "the neddle in the position of "+ arr.indexOf("neddle")
 // }
 // console.log(findNeedle(["fvd","fewe","neddle","ewqwl"]));
 
 // 11-sum of positive count of negative
-// method a 
+// method a
 // function sumCount(arr){
 //     var sum = 0;
 //     var counter = 0;
@@ -155,9 +143,9 @@
 // }
 // return `the sum of positives is ${sum} , the coun of negatives is ${counter}`
 // }
-// 
+//
 
-// method b sum negatives count positive 
+// method b sum negatives count positive
 // function sumCount(arr){
 //     var sum = arr.filter(a=>a<0).reduce((acc,ass)=>acc+ass)
 //     var counter = arr.filter(a=>a>0).length
@@ -166,15 +154,14 @@
 
 // console.log(sumCount([2,3,4,5,-1,2,-7,-2,6,-1]));
 
-// 12- double char 
+// 12- double char
 // function doubleChar(str){
 
 // return str.split("").map(a=>a+a).join("");
 
-// orrr 
+// orrr
 
 // return str.split("").map(a=>a.repeat(2)).join("");
-
 
 // }
 // console.log(doubleChar("alyaa"));
@@ -188,10 +175,7 @@
 // console.log(mathoperation("-",5,10));
 // console.log(mathoperation("/",5,10))
 
-
-
 //14 the square root or not to square root
-
 
 // function squrt(arr) {
 // var newarr = [];
@@ -201,25 +185,23 @@
 //     newarr.push(ele);
 // }
 // return newarr
-// orrrrrr 
+// orrrrrr
 //     return arr.map(ele => Number.isInteger(Math.sqrt(ele)) ? Math.sqrt(ele) : ele * ele)
 // }
 // console.log(squrt([2, 4, 3, 7, 9]));
 
-
-// 15-count by x 
+// 15-count by x
 // function countByx(jump,num){
 // var arr =[]
 // for(let i = jump; i<=num*jump ; i+=jump){
 //     arr.push(i)
 // }
 // return arr
-// orrr 
+// orrr
 // return Array.from(Array(num+1).keys()).slice(1).map(ele=>ele*jump)
 // }
 // console.log(countByx(2,5));
 // console.log(countByx(1,10));
-
 
 //16- remove string spaces
 // function remove(str){
@@ -227,32 +209,29 @@
 // }
 // console.log(remove("fgfg hgffg sld"));
 
-
 //17- return the opposite
 // function opp(arr){
 //     return arr.map(ele=>-ele)
 // }
 // console.log(opp([1,-2,3,-4,-5,6]));
 
-// 18 -boolean to string 
+// 18 -boolean to string
 
 // function bolToStr(boolean){
 
 // if(boolean==true)return "yes"
 // if(boolean==false)return"no"
-//    orrr 
+//    orrr
 //    return boolean? "yes":"no"
 // }
 // console.log(bolToStr(false));
 // console.log(bolToStr(true));
 
-
-// 19-reverse the words 
+// 19-reverse the words
 // function reverse(words){
 // return words.split(" ").reverse().join(" ")
 // }
 // console.log(reverse("bfgdv  fgd fr fgr"));
-
 
 // 20- keep hyderated
 // function drink(time){
@@ -260,10 +239,8 @@
 // }
 // console.log(drink(7.3));
 
-
-
-// 21- convert a number to a string 
-// method a 
+// 21- convert a number to a string
+// method a
 
 // function conv(num){
 //     return String(num);
@@ -274,13 +251,13 @@
 
 // function conv(num){
 //     return num.toString();
-// orrr 
+// orrr
 // return `${num}`
 
 // }
 //  console.log(typeof(conv(1)))
 
-// 22- average of a given array 
+// 22- average of a given array
 // function calcAvg(arr){
 // var avg = 0;
 // for(let i = 0 ; i<arr.length; i++){
@@ -290,14 +267,13 @@
 
 // }
 
-// orr 
+// orr
 // function calcAvg(arr){
 //     if (arr.length===0)return 0
 // return  arr.reduce((acc,val)=>acc+=val)/arr.length
 // }
 // console.log(calcAvg([0,1,2,3,4]));
 // console.log(calcAvg([]));
-
 
 // 23-convert a string to a number
 
@@ -306,8 +282,6 @@
 // return +str
 // }
 // console.log(toNum("123"));
-
-
 
 // 24- count the monkies
 
@@ -319,9 +293,6 @@
 //     return arr
 // }
 // console.log(count(5));
-
-
-
 
 // 25-hello with user's language
 // function hello(lang){
@@ -337,21 +308,18 @@
 //         return langs[lang];
 //     }else return langs["english"]
 // }
-// console.log(hello("arabic")); 
-// console.log(hello("armainian")); 
+// console.log(hello("arabic"));
+// console.log(hello("armainian"));
 
-
-//26- array of words to sentence 
+//26- array of words to sentence
 
 // function wordsToSecntence(words){
-//    return words.reduce((acc,val)=>acc+" "+val) 
+//    return words.reduce((acc,val)=>acc+" "+val)
 
-// orrr 
+// orrr
 // return words.join(" ")
 // }
 // console.log(wordsToSecntence(["hello","i","am","alyaa"]));
-
-
 
 // 27-swith to word
 // function numToWord(num) {
@@ -392,21 +360,17 @@
 // console.log(numToWord(0));
 // console.log(numToWord(10));
 
-
-
 //27- do i get bounus
 // function bounus(salary,bouns){
-    // if (bouns==true)return salary*10;
-    // return salary
-    // orrrr 
+// if (bouns==true)return salary*10;
+// return salary
+// orrrr
 // }
 // console.log(bounus(12,true));
 
-
-
 // remove علامة التعجب
 // function remo(str){
-// return str.replace(/!$/,"")  
+// return str.replace(/!$/,"")
 // }
 // console.log(remo("decd!!"));
 // console.log(remo("!decd"));
@@ -414,13 +378,13 @@
 //30 are you playing bango??
 
 // function bango (name){
-    // if(name.startsWith("r")||name.startsWith("R"))return "IAM PLAYING BANGO"
-    // else return "i am not playing"
+// if(name.startsWith("r")||name.startsWith("R"))return "IAM PLAYING BANGO"
+// else return "i am not playing"
 
-    // ORRR 
+// ORRR
 //     if(name.charAt(0)==="r"||name.charAt(0)==="R")return "IAM PLAYING BANGO"
 //     else return "i am not playing"
-// ORRR 
+// ORRR
 //     if(name[0]==="r"||name[0]==="R")return "IAM PLAYING BANGO"
 //     else return "i am not playing"
 // return /^r/i.test(name)?"IAM PLAYING BANGO": "i am not playing"
@@ -429,7 +393,6 @@
 // console.log(bango("Roma"));
 // console.log(bango("oma"));
 
-
 // 31- remove every second ele from array
 // function removee(arr){
 //     var newarr = []
@@ -437,13 +400,12 @@
 // newarr.push(arr[i]);
 // }
 // return newarr;
-// orrr 
+// orrr
 // return arr.filter((a,i)=>i%2===0)
 // }
 // console.log(removee([1,2,3,4,5,6]));
 
-
-// 33-renting a car 
+// 33-renting a car
 // function rent(numOfDays){
 //     // var total = 0;
 //     if(numOfDays<3)return "total =" +numOfDays*40 +"$"
@@ -456,7 +418,6 @@
 // console.log(rent(2));
 // console.log(rent(4));
 
-
 // 34- exclosive xor logecal operator
 
 // function xor(a,b)
@@ -465,7 +426,6 @@
 // }
 // console.log(xor(true,true));
 // console.log(xor(true,false));
-
 
 // 35- consecutive
 
@@ -476,7 +436,6 @@
 // }
 // console.log(con([1,2,4]));
 
-
 // 36-volume of cubic
 // class kata {
 //  static volume (w,h,l){
@@ -484,14 +443,12 @@
 // }}
 // console.log(kata.volume(10,20,5));
 
-
 // 37-to fixwd
 // function tofixed(num){
 //     // return Number(num.toFixed(2))
 //     return Math.round(num*100)/100     explaination  num*100=434.56=>round=>435=>/100=>4.35
 // }
-// console.log(tofixed(4.3456)); 
-
+// console.log(tofixed(4.3456));
 
 // 38-dolar and sints
 
@@ -505,15 +462,14 @@
 // function find (char){
 //     var str= "abcdefghijklmnopqrstuvwxyz";
 //     let arr = [...str]
-    // console.log(arr);
-    // for(let i=0; i<arr.length; i++){
-    //     if (char===arr[i])return i+1
-    // }
-    // orrr 
+// console.log(arr);
+// for(let i=0; i<arr.length; i++){
+//     if (char===arr[i])return i+1
+// }
+// orrr
 //     return arr.indexOf(char)+1
 // }
-// console.log(find("c")); 
-
+// console.log(find("c"));
 
 // 40-are they in love??
 // function inlove(flower1,flower2){
@@ -531,12 +487,11 @@
 //     {
 //     strNum = strNum.slice(0,strNum.length-1)
 // }
-    
+
 // return Number(strNum) ;
 //  }
 
 // console.log(noZeros(1234000));
-
 
 // 42- mean rounded down
 // function mean (arr){
@@ -544,28 +499,81 @@
 // }
 // console.log(mean([1,2,3,4,5,7]));
 
-
 //43-remove the vouls
 
 // function noVouls(str){
-//   let  mystr=[...str]
 //   let vouls = ["a","i","u","e","o"]
+//   let result=[]
+// for (let i = 0; i < str.length; i++) {
+//     if (!vouls.includes(str[i])) {
+//       result.push(str[i])
+//     }
+
+// } return result.join("")
 
 // }
+// console.log(noVouls('hekaidd'));
 
-// console.log(noVouls("asdfoce"));
-// filter 
-// array.every(item => item !== elementToCheck)
+//44-remove the (!)s
 
+//     function remove (str){
+// return str.split("").filter(ele=>ele!=="!").join("")
+//     }
+//     console.log(remove('h!ekai!dd dws!cs! !dwd'));
 
+//44-reverse the string
 
+// function reverseStr(str) {
+//   return str.split("").reverse().join("");
+// }
 
+// function reverse(str) {
+//   var newStr = [];
+//   for (let i = 0; i < str.length; i++) {
+//     newStr.unshift(str[i]);
+//   }
+//   return newStr.join("");
+// }
+// console.log(reverseStr("hi there"));
+// console.log(reverse("hi there"));
 
+// 45- multiply array elements
 
+// function grow(arr){
+// return arr.reduce((acc,curr)=>acc*curr)
+// }
+// function grow (arr){
+// let result = 1
+//     for(let i=0;i<arr.length;i++){
+// result*=arr[i]
+//     }
+//     return result
+// }
+// console.log(grow([1,2,3,4]));
 
+// 46- is it palindrome
 
+// function isPalendrome(str){
+// return str.toLowerCase()== str.toLowerCase().split("").reverse().join("")
+// }
+// console.log(isPalendrome("hello"),isPalendrome("woOw"));
 
+// 47- summition of num
 
+// function summition(num){
+//     let sum =0;
+//     for(let i=0;i<=num;i++){
+//     sum+=i
+//     }return sum
+// }
 
+// console.log(summition(5));
 
+// 48-
 
+// function printArray(arr){
+// return arr.join(",")
+// }
+// console.log(printArray(["s",2,"d",3,"f"]));
+
+// 49-
